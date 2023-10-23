@@ -1,0 +1,25 @@
+header{
+    background:#BBBBBB;
+    padding: 20px 0;/* espaço em e em baixo do cabeçalho - espaçamentointeiro*/
+}
+
+.caixa{
+    position:relative/*menu dentro da caixa*/
+    width:940px;/*largura da caixa*/
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    rigth: 0px;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;/*espaçamento externo*/
+}
+
+nav a{
+    text-transform: uppercase; /*letras maiúsculas*/
+    color:#000000; */cor das letras pretas */
